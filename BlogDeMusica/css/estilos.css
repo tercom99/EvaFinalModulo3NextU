@@ -1,0 +1,80 @@
+*{
+  font-family: eras-ITC
+  font-size: 12px;
+}
+
+
+/* =======================
+Header
+======================= */
+.logo>img{
+  width: 70px;
+  margin-left: 12%;
+}
+.titulo>h2{
+  font-size: 48px;
+  font-style: italic;
+  text-shadow: 2px 2px grey;
+}
+.redsocial>img{
+  width: 32px;
+}
+.redsocial{
+  text-align: center;
+  padding-top: 4%;
+  padding-left: 30%;
+}
+
+/* =======================
+ Nav
+======================= */
+.navegacion>li{
+  padding: 0 50px 0 50px;
+  font-size: 18px;
+}
+
+/* =======================
+ article
+======================= */
+.article{
+  flex: auto;
+}
+.imgParteS>img{
+  width: 100%;
+  padding-left: 2%;
+}
+.parteS .parteI{
+  text-align: justify;
+}
+.icono>img{
+  width: 100%;
+}
+
+/* =======================
+MediaQuirys
+======================= */
+@media(max-width:767px){
+  .navegacion>li{
+    font-size: 18px;
+  }
+  .imgParteS>img{
+    padding-top: 0;
+    width: 100%;
+  }
+}
+@media(max-width:991px) and (min-width:768px){
+  .navegacion>li{
+    font-size: 18px;
+  }
+  .imgParteS>img{
+    width: 100%;
+    padding-top: 0;
+  }
+}
+@media(max-width:1200px) and (min-width:992px){
+  .redsocial{
+    text-align: center;
+    padding-top: 4%;
+    padding-left: 30%;
+  }
+}
