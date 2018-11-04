@@ -1,1 +1,46 @@
+*{
+  box-sizing: border-box;
+  border: 1px dotted #b3b3ff;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+body{
+/* background: url("../img/fondo.jpg"); */
+  /* background: url("../img/fondo2.jpg"); */
+  background: url("../img/fondo3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:  top;
+}
+img{
+  align-items: center;
+  /* padding: auto; */
+  /* margin: auto; */
+}
+button{
+  padding: auto;
+  margin: auto;
+}
+/* ============================
+Header
+============================ */
 
+
+/* ============================
+columna Buscador
+============================ */
+.ppal{
+  background-color: #ccccff;
+}
+
+/* ============================
+Colunma contenido
+============================ */
+.imgCont>img{
+  width: 100%;
+  height: 10%;
+}
+.icono>img{
+  width: 100%;
+}
