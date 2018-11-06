@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="css/foundation.min.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="css/home.css" media="screen" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Dancing+Script|Pacifico|Pattaya|Satisfy|Shadows+Into+Light" rel="stylesheet">
   </head>
   <body>
-    <div class="row container">
-      <div class="row ppal">
+    <div class="row container grid-block">
+      <div class="row ppal grid-content">
         <div class="row">
-          <div class="column text-right">
+          <div class="column small-12 medium-12 small-order-1 medium-order-1 large-order-1 text-right">
             <h1>Las Comidas de Pepito</h1>
             <h5>Porque lo Más Sabroso entra por los Ojos...</h5>
           </div>
@@ -19,7 +20,7 @@
         <!-- Final Fila 1 -->
         <div class="row">
           <div class="column medium-5">
-            <div class="row">
+            <div class="row show-for-large">
               <div class="column medium-10">
                 <input type="text" placeholder="Buscar" required aria-describedby="ayudaTexto"/>
               </div>
@@ -27,7 +28,7 @@
                 <a href="#" class="button"><i class="fi-page-search"></i></a>
               </div>
             </div>
-            <div class="column">
+            <div class="column medium-12 small-order-2 medium-order-2 large-order-2">
               <ul class="vertical menu">
               <li class="active"><a href="#">Inicio</a></li>
               <li><a href="#">Mi plato Perfecto</a></li>
@@ -35,42 +36,107 @@
             </ul>
             </div>
             <!-- Final Menu -->
-            <div class="column">
+
+            <div class="column favoritos small-order-4 medium-order-4 large-order-4">
               <h3>Favoritos</h3>
-              <div class="row">
-                <div class="column medium-4">
+              <div class="row small-6">
+                <div class="column small-6 medium-4">
                   <img src="img/postre1.jpg" alt="">
                 </div>
-                <div class="column medium-4">
+                <div class="column small-6 medium-4">
                   <img src="img/postre1.jpg" alt="">
                 </div>
-                <div class="column medium-4">
+                <div class="column small-6 medium-4 show-for-large">
                   <img src="img/pasta.jpg" alt="">
                 </div>
               </div>
-              <div class="row">
-                <div class="column medium-4">
+              <div class="row small-6">
+                <div class="column small-6 medium-4">
                   <img src="img/postre2.jpg" alt="">
                 </div>
-                <div class="column medium-4">
+                <div class="column small-6 medium-4">
                   <img src="img/mariscos2.jpg" alt="">
                 </div>
-                <div class="column medium-4">
+                <div class="column small-6 medium-4 show-for-large">
                   <img src="img/pasta2.jpg" alt="">
                 </div>
               </div>
             </div>
             <!-- Final Favoritos -->
-            <div class="column">Historial</div>
+            <div class="column smal-order-5 medium-order-5 large-order-5">
+              <h3>Historial</h3>
+              <div class="">
+                <ul>
+                  <li>
+                    <div class="column comentarios">
+                      <div class="row">
+                        <div class="medium-2"><img src="icons/Female.png" alt=""></div>
+                        <div class="medium10">
+                          <div class="user-name">Pepito Perez</div>
+                          <div class="coment">Hace 25 Min.</div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <span>Me gusto mucho la página</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="column comentarios">
+                      <div class="row">
+                        <div class="medium-2"><img src="icons/Female.png" alt=""></div>
+                        <div class="medium10">
+                          <div class="user-name">Perencejo Nuñez</div>
+                          <div class="coment">Hace 35 Min.</div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <span>Me gusto mucho la página</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="column comentarios">
+                      <div class="row">
+                        <div class="medium-2"><img src="icons/Female.png" alt=""></div>
+                        <div class="medium10">
+                          <div class="user-name">Fulanito Castro</div>
+                          <div class="coment">Hace 15 Min.</div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <span>Me gusto mucho la página</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="column comentarios">
+                      <div class="row">
+                        <div class="medium-2"><img src="icons/Female.png" alt=""></div>
+                        <div class="medium10">
+                          <div class="user-name">Mengano Florez</div>
+                          <div class="coment">Hace 5 Min.</div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <span>Me gusto mucho la página</span>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Final Historial -->
           </div>
-          <div class="column medium-7">
+          <div class="column medium-7 small-order-3 medium-order-3">
             <div class="column">
+              <h3>Tacos Mejicanos</h3>
+                <p>Noviembre 25 / 2018</p>
               <div class="row imgCont">
                 <img src="img/sup.jpg" alt="sup">
               </div>
-              <div class="row">
-                <h3>Tacos Mejicanos</h3>
-                <span class="text-center"><strong>Para el relleno:</strong>
+              <div class="column text-center">
+                <span class=""><strong>Para el relleno:</strong>
                       2 tazas de carne picada (460 g) <br>
                       1/2 taza de aceite de oliva (250 ml) <br>
                       2 tazas de queso cheddar rallado (200 g) <br>
@@ -94,12 +160,13 @@
             </div>
             <!-- Final Contenido Superior -->
             <div class="column">
+              <h3>Lomo Relleno</h3>
+                <p>Octubre 25 / 2018</p>
               <div class="row imgCont">
                   <img src="img/inf.jpg" alt="inf">
               </div>
               <div class="column text-center">
                 <div class="column">
-                <h3>Lomo Relleno</h3>
               </div>
               <div class="column">
                 <span class=""><strong>Para el relleno:</strong> <br>
@@ -138,5 +205,6 @@
     <script src="js/what-input.js"></script>
     <script src="js/foundation.min.js" charset="utf-8"></script>
     <script src="js/home.js" charset="utf-8"></script>
-  </body>
+
+      </body>
 </html>
