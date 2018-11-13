@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url("../img/cali3.jpg");
+}
+
+/* ======================
+Barra Superior
+====================== */
+.logo>img{
+  width: 100%;
+}
+.slogan>img{
+  width: 20%;
+}
+.slogan>span{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px #dce0e2;
+}
+.barra-superior{
+  background: url("../img/Flag.png");
+  background-size: contain;
+}
+.navegacion{
+}
+.menu>a{
+  border-radius: 15px;
+}
+
+
+/* ======================
+Barra Media
+====================== */
+.barra-media{
+  background: rgb(128, 203, 196, 0.5);
+}
+.rs>a>img{
+ width: 50%;
+ border-radius: 15px;
+ margin-top: 30px;
+ border: 2px solid white;
+ box-shadow: 3px 3px white;
+}
+.paneles{
+  margin-top: 20px;
+}
+.panLat{
+}
+.paneles img{
+  border-radius: 15px;
+  border: 3px solid white;
+}
+
+/* ======================
+Barra Inferios
+====================== */
+.barra-inferior{
+  background: rgb(255, 255, 255, 0.5);
+}
+h3{
+  text-shadow: 2px 2px white;
+  font-style: italic;
+}
+h4{
+  text-shadow: 2px 2px white;
+  font-style: italic;
+}
+p{
+  text-align: justify;
+  padding: 10px;
+}
+.perfil-autor{
+  background: rgb(255, 255, 255, 0.5) !important;
+}
+.fotoperfil{
+  margin: 30px;
+}
+.fotoperfil>img{
+  border: 3px solid white;
+  width: 60%;
+  height: 70%;
+}
+.card{
+  background: rgb(255, 255, 255, 0.5) !important;
+}

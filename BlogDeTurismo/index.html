@@ -8,10 +8,158 @@
     <!--Importar la hojas de estilos de materialize css-->
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Pattaya" rel="stylesheet">
     <title>Blog de Turismo</title>
   </head>
   <body>
-  
+    <div class="row contenedor">
+      <div class="col s12 m12 l12 barra-superior">
+        <div class="col s3 m1 logo blue lighten-4">
+          <img class="responsive-img" src="img/logo1.png">
+        </div>
+        <div class="col s12 m11 l12 navegacion">
+          <div class="row s12 m6 menu right hide-on-small-only">
+            <a class="waves-effect waves-light btn"><i class="material-icons right">home</i>  Home</a>
+            <a class="waves-effect waves-light btn"><i class="material-icons right">room</i>  Estuve en.</a>
+            <a class="waves-effect waves-light btn"><i class="material-icons right">star</i>  Mejores Viajes</a>
+            <a class="waves-effect waves-light btn"><i class="material-icons right">textsms</i>  Recomendaciones</a>
+          </div>
+          <div class="row s12 m6 slogan left">
+            <img class="responsive-img" src="img/logo2.png">
+            <span class="hide-on-small-only">Santiago de Cali, La sucursal del Cielo!...</span>
+          </div>
+        </div>
+        <!-- Para Pantallas Pequeñas Se usara un Boton plegable -->
+        <div class="fixed-action-btn click-to-toggle horizontal hide-on-med-and-up" style="top:45px; right:20px;">
+          <a class="btn-floating btn-large green">
+            <i class="large material-icons">menu</i>
+          </a>
+          <ul>
+            <li><a class="btn-floating blue"><i class="material-icons">home</i></a></li>
+            <li><a class="btn-floating red"><i class="material-icons">room</i></a></li>
+            <li><a class="btn-floating grey"><i class="material-icons">star</i></a></li>
+            <li><a class="btn-floating green"><i class="material-icons">textsms</i></a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Fenal Barra Superior -->
+
+      <div class="col s12 barra-media">
+        <div class="col m1 push-11 valign-wrapper btn-rs center hide-on-med-and-down">
+          <div class="row rojo lighten-3 rs">
+            <a href="#"><img class="responsive-img" src="icons/facebook.png"></a>
+            <a href="#"><img class="responsive-img" src="icons/twitter.png"></a>
+            <a href="#"><img class="responsive-img" src="icons/pinterest.png"></a>
+            <a href="#"><img class="responsive-img" src="icons/youtube.png"></a>
+            <a href="#"><img class="responsive-img" src="icons/instagram.png"></a>
+          </div>
+        </div>
+        <!-- Final Redes Sociales -->
+        <div class="row col s12 m11 valign-wrapper paneles">
+          <div class="col s12 m4 center panLat">
+            <div class="row">
+              <img class="responsive-img z-depth-2" src="img/cali3.jpg">
+            </div>
+            <div class="row">
+              <img class="responsive-img z-depth-2" src="img/cali1.jpg">
+            </div>
+          </div><!-- Final panel de Fotos Iquierda -->
+          <div class="col m4 valign-wrapper imc hide-on-med-and-down">
+            <img class="responsive-img z-depth-2" src="img/cali4.jpg">
+          </div><!-- Final panel de Fotos Central -->
+          <div class="col s12 m4 panLat">
+            <div class="row">
+              <img class="responsive-img z-depth-2" src="img/cali6.jpg">
+            </div>
+            <div class="row">
+              <img class="responsive-img z-depth-2" src="img/cali5.jpg">
+            </div>
+          </div><!-- Final panel de Fotos Derecha -->
+        </div>
+      </div>
+      <!-- Final barra Media -->
+
+      <div class="col s12 m8 barra-inferior">
+        <div class="card">
+          <div class="row">
+            <form class="">
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input id="icon_prefix" type="text" class="validate">
+                  <label for="icon_prefix">Comentario</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">receipt</i>
+                  <input id="icon_date" type="date" class="">
+                </div>
+              </div>
+            </form>
+          </div>
+            <div class="card-image">
+              <img src="img/cali8.jpg">
+              <span class="card-title">El Gato de Tejada</span>
+            </div>
+            <div class="card-content transparent">
+              <p>En el año de 1996 se inició un plan de embellecimiento y recuperación de la ribera
+                    del Río Cali, que incluyó la adecuación de un espacio para el monumento donado
+                    por Tejada. La escultura fue fundida en bronce a gran escala en la ciudad de
+                    Bogotá, en el taller de Rafael Franco. Para su transporte a la ciudad, tuvo que ser
+                    desmontado el techo del taller.​ El monumento fue ubicado sobre la llamada
+                    'Avenida del Río' en la intersección con la Calle 4° Oeste, en un sitio de alta actividad
+                    comercial y de esparcimiento nocturno. Fue inaugurado el 3 de julio de 1996.</p>
+            </div>
+          </div><!-- Final Primer contenido -->
+          <div class="card">
+            <div class="row">
+              <form class="">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">Comentario</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">receipt</i>
+                    <input id="icon_date" type="date" class="">
+                  </div>
+                </div>
+              </form>
+            </div>
+              <div class="card-image">
+                <img src="img/cali7.jpg">
+                <span class="card-title">El Puente Ortiz</span>
+              </div>
+              <div class="card-content transparent">
+                <p>El Puente Ortiz es un puente y monumento nacional.​ ubicado en Santiago de
+                  Cali, en Colombia. Está ubicado en el centro de la ciudad y fue el primero en
+                  construirse sobre el río Cali.​ El ingeniero de la obra fue el monje franciscano Fray
+                  José Ignacio Ortiz, oriundo de Candelaria, quien era un ingeniero aficionado</p>
+              </div>
+            </div><!-- Final Segundo contenido -->
+        </div><!-- Final Columna de Contenido -->
+        <div class="card col m4 perfil-autor transparent z-depth-2">
+          <div class="row circle fotoperfil center">
+            <img class="responsive-img z-depth-2 circle" src="img/foto.jpg">
+          </div>
+            <h4 class="center"><strong>Perfil del Autor</strong></h4>
+            <div class="divider"></div>
+            <div class="transparent z-depth-2">
+              <blockquote cite="">
+              <p class="flow-text">
+                  <strong>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, deleniti, ducimus. Numquam dicta suscipit, eos distinctio veritatis dolor magnam libero reprehenderit voluptates, dolorem sit assumenda aspernatur tenetur. Placeat, explicabo aliquid?
+                  </strong>
+              </p>
+            </blockquote>
+          </div>
+        </div><!-- Final Perfil -->
+      </div>
+      <!-- Final Barra Inferior -->
+    </div>
+    <!-- Fenal Contenedor Principal -->
+
+
 <!-- =============================INSTANCIAS DE JS============================= -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
